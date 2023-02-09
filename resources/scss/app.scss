@@ -1,1 +1,24 @@
-@import '~bootstrap/scss/bootstrap'
+@import '~bootstrap/scss/bootstrap';
+
+body {
+    background-image: url(../assets/img/wmMuPD.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    background-color: blueviolet;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+main {
+    padding-top: 200px;
+}
+div.movie-card {
+    height: 250px;
+    border: 5px solid #0282f9;
+    background-color: white;
+    border-radius: 0;
+}

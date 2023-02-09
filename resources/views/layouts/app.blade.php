@@ -11,7 +11,8 @@
 </head>
 
 <body>
-    @yield('main-app');
+    @include('partials.header')
+    @yield('main-app')
 </body>
 
 </html>
